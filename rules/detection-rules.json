@@ -51,7 +51,7 @@
       "^https://[^/]*\\.apple\\.com(/.*)?$",
       "^https://[^/]*\\.dynamics\\.com(/.*)?$",
       "^https://(?:[^/]*\\.)?zoom\\.us(/.*)?$",
-      "^https://[^/]aad\\.huntress\\.io(/.*)?$"
+      "^https://[^/]*\\.huntress\\.io(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
