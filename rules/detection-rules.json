@@ -51,7 +51,9 @@
       "^https://[^/]*\\.apple\\.com(/.*)?$",
       "^https://[^/]*\\.dynamics\\.com(/.*)?$",
       "^https://(?:[^/]*\\.)?zoom\\.us(/.*)?$",
-      "^https://[^/]*\\.huntress\\.io(/.*)?$"
+      "^https://[^/]*\\.huntress\\.io(/.*)?$",
+      "^https://[^/]*\\.afasinsite\\.nl(/.*)?$",
+      "^https://www\\.ninjaone\\.com/kb-catalog(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
