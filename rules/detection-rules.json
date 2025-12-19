@@ -33,7 +33,9 @@
     "^https:\\/\\/[^.]*\\.bing\\.com$",
     "^https:\\/\\/github\\.com$",
     "^https:\\/\\/.*\\.cloud\\.microsoft$",
-    "^https:\\/\\/([^.]+\\.)*live\\.com(/.*)?$"
+    "^https:\\/\\/([^.]+\\.)*live\\.com(/.*)?$",
+    "^https:\\/\\/.*\\.powerbi\\.com$",
+    "^https:\\/\\/.*\\.ciamlogin\\.com$"
   ],
   "exclusion_system": {
     "description": "Centralized exclusion system to prevent false positives on legitimate sites (Microsoft partners, SSO providers, major platforms)",
@@ -57,12 +59,11 @@
       "^https:\\/\\/[^/]*\\.github\\.io(/.*)?$",
       "^https:\\/\\/([^.]+\\.)*live\\.com(/.*)?$",
       "^https:\\/\\/(?:[^/]*\\.)?zoom\\.us(/.*)?$",
-      "^https://(?:[^/]*\\.)?zoom\\.us(/.*)?$",
-      "^https://[^/]*\\.huntress\\.io(/.*)?$",
-      "^https://[^/]*\\.afasinsite\\.nl(/.*)?$",
-      "^https://www\\.ninjaone\\.com/kb-catalog(/.*)?$",
-      "^https://[^/]*\\.aad\\.nl(/.*)?$",
-      "^https://login\\.censo\\.nl(/.*)?$",
+      "^https:\\/\\/[^/]*\\.huntress\\.io(/.*)?$",
+      "^https:\\/\\/[^/]*\\.afasinsite\\.nl(/.*)?$",
+      "^https:\\/\\/www\\.ninjaone\\.com/kb-catalog(/.*)?$",
+      "^https:\\/\\/[^/]*\\.aad\\.nl(/.*)?$",
+      "^https:\\/\\/login\\.censo\\.nl(/.*)?$",
       "https:\\/\\/[^/]*\\.githubusercontent\\.com(/.*)?$"
     ],
     "context_indicators": {
