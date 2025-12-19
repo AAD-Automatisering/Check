@@ -62,7 +62,8 @@
       "^https://[^/]*\\.afasinsite\\.nl(/.*)?$",
       "^https://www\\.ninjaone\\.com/kb-catalog(/.*)?$",
       "^https://[^/]*\\.aad\\.nl(/.*)?$",
-      "^https://login\\.censo\\.nl(/.*)?$"
+      "^https://login\\.censo\\.nl(/.*)?$",
+      "https:\\/\\/[^/]*\\.githubusercontent\\.com(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
