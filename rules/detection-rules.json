@@ -56,7 +56,13 @@
       "^https:\\/\\/(?:[^/]*\\.)?zoom\\.us(/.*)?$",
       "^https:\\/\\/github\\.com(/.*)?$",
       "^https:\\/\\/[^/]*\\.github\\.com(/.*)?$",
-      "^https:\\/\\/[^/]*\\.github\\.io(/.*)?$"
+      "^https:\\/\\/[^/]*\\.github\\.io(/.*)?$",
+      "^https:\\/\\/[^/]*\\.huntress\\.io(/.*)?$",
+      "^https:\\/\\/[^/]*\\.afasinsite\\.nl(/.*)?$",
+      "^https:\\/\\/www\\.ninjaone\\.com/kb-catalog(/.*)?$",
+      "^https:\\/\\/[^/]*\\.aad\\.nl(/.*)?$",
+      "^https:\\/\\/login\\.censo\\.nl(/.*)?$",
+      "https:\\/\\/[^/]*\\.githubusercontent\\.com(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
@@ -1804,10 +1810,10 @@
     }
   ],
   "detection_settings": {
-    "enable_real_time_scanning": true,
+    "enable_real_time_scanning": false,
     "enable_form_monitoring": true,
     "enable_url_verification": true,
-    "enable_content_analysis": true,
+    "enable_content_analysis": false,
     "enable_verification_badge": false,
     "block_threshold": 0.8,
     "warn_threshold": 0.6,
