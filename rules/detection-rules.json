@@ -63,7 +63,8 @@
       "^https:\\/\\/[^/]*\\.aad\\.nl(/.*)?$",
       "^https:\\/\\/login\\.censo\\.nl(/.*)?$",
       "https:\\/\\/[^/]*\\.githubusercontent\\.com(/.*)?$",
-      "https:\\/\\/[^/}*\\.serviceofficeplus\\.nl(/.*)?$"
+      "https:\\/\\/[^/}*\\.serviceofficeplus\\.nl(/.*)?$",
+      "^https:\\/\\/one\\.zoho\\.eu(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
