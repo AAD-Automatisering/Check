@@ -1,5 +1,5 @@
 {
-  "version": "1.2.5",
+  "version": "1.2.6",
   "lastUpdated": "2026-07-08T00:00:00Z",
   "description": "Phishing detection logic for identifying phishing attempts targeting Microsoft 365 login pages",
   "trusted_login_patterns": [
@@ -66,10 +66,9 @@
       "^https:\\/\\/www\\.ninjaone\\.com/kb-catalog(/.*)?$",
       "^https:\\/\\/[^/]*\\.aad\\.nl(/.*)?$",
       "^https:\\/\\/login\\.censo\\.nl(/.*)?$",
-      "https:\\/\\/[^/]*\\.githubusercontent\\.com(/.*)?$",
-      "https:\\/\\/[^/}*\\.serviceofficeplus\\.nl(/.*)?$",
-      "^https:\\/\\/one\\.zoho\\.eu(/.*)?$",
-      "^https:\\/\\/crm\\.zoho\\.eu(/.*)?$"
+      "^https:\\/\\/[^/]*\\.githubusercontent\\.com(/.*)?$",
+      "^https:\\/\\/[^/}*\\.serviceofficeplus\\.nl(/.*)?$",
+      "^https:\\/\\/[^/]*\\.zoho\\.eu(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
