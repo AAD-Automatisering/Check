@@ -67,7 +67,7 @@
       "^https:\\/\\/[^/]*\\.aad\\.nl(/.*)?$",
       "^https:\\/\\/login\\.censo\\.nl(/.*)?$",
       "^https:\\/\\/[^/]*\\.githubusercontent\\.com(/.*)?$",
-      "^https:\\/\\/[^/}*\\.serviceofficeplus\\.nl(/.*)?$",
+      "^https:\\/\\/[^/]*\\.serviceofficeplus\\.nl(/.*)?$",
       "^https:\\/\\/[^/]*\\.zoho\\.eu(/.*)?$"
     ],
     "context_indicators": {
