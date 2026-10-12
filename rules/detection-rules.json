@@ -39,8 +39,7 @@
     "^https:\\/\\/github\\.com$",
     "^https:\\/\\/raw\\.githubusercontent\\.com$",
     "^https:\\/\\/([a-zA-Z0-9-]+\\.)*cloud\\.microsoft$",
-    "^https:\\/\\/([a-zA-Z0-9-]+\\.)*powerbi\\.com$",
-    "^https:\\/\\/app\\.shiptify\\.com$"
+    "^https:\\/\\/([a-zA-Z0-9-]+\\.)*powerbi\\.com$"
   ],
   "exclusion_system": {
     "description": "Centralized exclusion system to prevent false positives on legitimate sites (Microsoft partners, SSO providers, major platforms)",
@@ -69,7 +68,9 @@
       "^https:\\/\\/login\\.censo\\.nl(/.*)?$",
       "^https:\\/\\/[^/]*\\.githubusercontent\\.com(/.*)?$",
       "^https:\\/\\/[^/]*\\.serviceofficeplus\\.nl(/.*)?$",
-      "^https:\\/\\/[^/]*\\.zoho\\.eu(/.*)?$"
+      "^https:\\/\\/[^/]*\\.zoho\\.eu(/.*)?$",
+      "^https:\\/\\/app\\.shiptify\\.com$",
+      "^https:\\/\\/[^/]*\\.kyp\\.now(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
