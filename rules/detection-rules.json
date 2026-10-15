@@ -71,7 +71,8 @@
       "^https:\\/\\/[^/]*\\.zoho\\.eu(/.*)?$",
       "^https:\\/\\/app\\.shiptify\\.com$",
       "^https:\\/\\/[^/]*\\.kyp\\.now(/.*)?$",
-      "^https:\\/\\/[^/]*\\.move\\.nl(/.*)?$"
+      "^https:\\/\\/[^/]*\\.move\\.nl(/.*)?$",
+      "^https:\\/\\/[^/]*\\.site\\.com(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
